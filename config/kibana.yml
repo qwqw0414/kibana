@@ -164,3 +164,11 @@
 # Maximum number of documents loaded by each shard to generate autocomplete suggestions.
 # This value must be a whole number greater than zero. Defaults to 100_000
 #unifiedSearch.autocomplete.valueSuggestions.terminateAfter: 100000
+
+server.port: 5601
+server.host: 0.0.0.0
+elasticsearch.hosts: [https://34.64.201.13:9200]
+elasticsearch.username: "kibana"
+elasticsearch.password: "qwer1234"
+# xpack.security.enabled: true
+elasticsearch.ssl.verificationMode: none
